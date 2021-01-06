@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-  
+   
 }
 
 ul {
     list-style-type: none;
-    margin: 20px 40px;
+    margin-left: 30px;
     float: right;
   
   }
@@ -37,7 +37,7 @@ font-weight: 900;
 
 section{
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 
 }
 .text{
@@ -57,21 +57,32 @@ section{
 #heading{
  text-align: center;   
 }
-
+.projects{
+    width:100%;
+   
+}
 .second_width{
-  width: 25%;
+  width: 30%;
   margin-top: 10%;
   float: left;
   padding: 10px; 
-  height: 20%; 
- 
- 
+  height: 30%; 
+  box-shadow: 10px 10px 70px gray;
+  border-radius:5px;
+  
+ /* border:1px solid gray; */
 }
 
 .second_width img{
  width: 100%;
- box-shadow: 20px 20px 40px #6C6C6C;
+ 
+
+ 
 }
+/* .single_exp{
+  
+} */
+
 
    .shapes{
      
@@ -94,6 +105,11 @@ section{
    .small{
       margin-left: 70px; 
       text-align: center;
+      background-color: #FF7067;;
+     padding: 10PX 40px;
+     color: papayawhip;
+     border-radius: 30px;
+
    }
 
    .inquiry{
@@ -118,4 +134,46 @@ section{
    .icon img{
        width: 25px;
    }
+ 
 
+   input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(107, 98, 104);
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

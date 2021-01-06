@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal website </title>
     <link rel="stylesheet" href="index.css">
+
+    <nav>
+        <ul>
+            <li>About</li>
+            <li>Work</li>
+            <li>Protfolio</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 </head>
- <nav>
-     <ul>
-         <li>About</li>
-         <li>Work</li>
-         <li>Protfolio</li>
-         <li>Contact</li>
-     </ul>
- </nav>
+ 
 <body>
   <section class="intro">
    <div class="half_width">   
@@ -25,7 +27,7 @@
    
   </div >
   <div class="half_width">
-   <img src="images/my-bg.png" alt="rashed">
+   <img src="images/Group 33087.png" alt="rashed">
    
   </div>
   </section> 
@@ -33,7 +35,7 @@
   <section class="about">
 
   <div class="half_width">
-   <img src="images/image 12-1.png" alt="">
+   <img src="images/Group 33085.png" alt="">
   </div>
 
   <div class="half_width">
@@ -48,14 +50,20 @@
 
   <section class="projects">
   <h1 id="heading"class="first"><span>LATEST</span> WORKING PROJECTS</h1>
-  <div class="second_width">
+  <div class="second_width single_exp">
     <img src="images/image 4.png" alt="">
+    <h2 class="text">power x -gym(gym website)</h2>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima amet sint, debitis magni aliquid odit.</p>
   </div>
-  <div class="second_width">
+  <div class="second_width single_exp">
   <img src="images/image 5.png" alt="">
+  <h2 class="text">Creative agency</h2>
+  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, debitis itaque beatae </p>
   </div>
-  <div class="second_width">
+  <div class="second_width single_exp">
   <img src="images/image 8.png" alt="">
+  <h2 class="text">Hard Rock music</h2>
+  <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, mollitia?</p>
   </div>
 
   </section>
@@ -74,9 +82,32 @@
     </div>
   </section>
 
-  <section>
-      <div>
+  <section class="contact_section">
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+         
+        </div>
+        <div class="row">
         
+          <div class="column">
+            <form action="/action_page.php  class="form">
+              <label for="fname">First Name</label><br/>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.."><br/>
+              <label for="lname">Last Name</label><br/>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br/>
+              <label for="country">Country</label><br/>
+              <select id="country" name="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+              </select>
+              <label for="subject">Subject</label><br/>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br/>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
       </div>
   </section>
 </body>
