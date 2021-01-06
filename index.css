@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 40px;
+    float: right;
+  
+  }
+
+  li{
+      display: inline;
+    
+  }
+.half_width{
+  width: 40%; 
+  margin-top: 10%;
+  float: left;
+  padding: 10px;
+}
+
+.half_width img{
+    width: 100%;
+    
+}
+.first{
+    color: #363958;
+    font-weight: 900;
+}
+span{
+color:#FF7067;
+font-weight: 900;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 50px;
+
+}
+.text{
+    color: lightslategray
+}
+.btn{
+    background-color: #FF7067;;
+    padding: 10PX 40px;
+    color: papayawhip;
+    border-radius: 30px;
+
+}
+
+.about{
+    margin:0px  100px;
+}
+#heading{
+ text-align: center;   
+}
+
+.second_width{
+  width: 25%;
+  margin-top: 10%;
+  float: left;
+  padding: 10px; 
+  height: 20%; 
+ 
+ 
+}
+
+.second_width img{
+ width: 100%;
+ box-shadow: 20px 20px 40px #6C6C6C;
+}
+
+   .shapes{
+     
+       background-image:url('shapes/Group_33094_1.png');
+       width: 60%;
+       height: 30%;
+       margin-left: 25%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       border-radius: 10px;
+   }
+
+   .tag{
+      
+      /* margin-top: 20px; */
+      text-align: center;
+      padding-top: 50px;
+   }
+   .small{
+      margin-left: 70px; 
+      text-align: center;
+   }
+
+   .inquiry{
+    
+     position: relative; 
+   }
+
+   .icon{
+    position: absolute;
+
+    left: 50%;
+  
+    top: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+   
+     padding: 10px;
+
+   }
+
+   .icon img{
+       width: 25px;
+   }
+
